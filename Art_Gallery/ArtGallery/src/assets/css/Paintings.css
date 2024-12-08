@@ -1,0 +1,92 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Adjust to column to stack rows */
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Center gallery content */
+    background-color: rgba(51, 70, 126, 0.5);
+    padding-bottom: 10px;
+}
+
+.gal-images {
+    
+    margin-top: 5%;
+    width: 100%;
+    padding: 0%;
+    border-style: groove;
+    background-color: rgba(225, 228, 244, 0.432);
+}
+
+.gal-images img {
+    width: 30%; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+     /* Space between image and content */
+}
+
+.gal-images-header {
+    width: inherit;
+}
+
+.gal-images textarea {
+    margin-bottom: 3%;
+    width: 100%; /* Ensure text area takes full width inside container */
+    resize: none; /* Disable resize for better consistency */
+}
+
+/* Responsive design for smaller devices */
+@media (max-width: 760px) {
+    .gal-images {
+        flex-direction: column; /* Stack image and content vertically on small screens */
+        align-items: center;
+    }
+
+    .gal-images img {
+        width: 80%; /* Adjust image width for small screens */
+        margin-bottom: 10px; /* Add spacing below image */
+    }
+
+    .gal-images textarea {
+        width: 100%;
+        height: 40px;
+    }
+}
+
+/* For medium devices */
+@media (min-width: 760px) and (max-width: 1024px) {
+    .gal-images textarea {
+        width: 100%;
+        height: 60px;
+    }
+}
+
+/* For large screens */
+@media (min-width: 1024px) {
+    .gal-images textarea {
+        width: 60%;
+        height: 60px;
+    }
+}
+
+.gal-header h1 {
+    width: 80%;
+    text-align: center;
+    justify-self: center;
+    background-image: linear-gradient(to right, rgb(75, 132, 224), rgb(174, 174, 244));
+    padding: 3%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+
+.gal-header {
+    padding: 0%;
+}
+
+#backBtn {
+    height: 20px;
+    width: 20px;
+}

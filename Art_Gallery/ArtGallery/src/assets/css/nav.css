@@ -1,0 +1,20 @@
+#nav1{
+    
+    background-color:transparent;
+}
+#art{
+    height: 30px;
+    width: 30px;
+}
+#img{
+    height: 30px;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url("Kraft\ Paper.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}

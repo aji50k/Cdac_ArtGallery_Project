@@ -1,0 +1,80 @@
+
+.bodydiv{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-image: url(download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    padding:50px;
+    border-radius: 0px 100px;
+    /*display: flex;*/
+    height: 600px;
+    width:60%;
+    /*margin: 200px auto;*/
+    margin: 200px 50px ;
+    float:right;
+    background: rgba(107, 97, 69, 0.421);
+    box-shadow:inset -10px -5px rgba(64, 32, 5, 0.86) ;
+    align-self:right;
+}
+#left{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 0px 0px 50px ;
+    text-align: center;
+    float: left;
+    height:100%;
+    width: 40%;
+    background: rgb(182, 177, 222);
+    
+}
+#right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 0px 50px 0px 0px ;
+    text-align: center;
+    float: left;
+    height:100%;
+    width: 60%;
+    background: rgb(223, 237, 188);
+}
+
+#right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#right form input,textarea,button{
+    font-size: 18px;
+    width:80%;
+}
+#right button:hover{
+    background-color: rgb(255, 79, 79,0.7);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.7); 
+    transform: scale(1.05);
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+h2{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
