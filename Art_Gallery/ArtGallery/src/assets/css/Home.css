@@ -1,0 +1,127 @@
+#nav1{
+    height: 150px;
+    background-color:transparent;
+}
+#art{
+    height: 30px;
+    width: 30px;
+}
+#img{
+    height: 30px;
+}
+.header-2{
+    height: 200px;
+    width: 100%;
+    background-color:transparent;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/Kraft Paper.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.container1{
+    background-color: red;
+    height:300px;
+    width: 100%;
+}
+.slides{
+    text-align: right;
+    padding:5% 12%;
+    height: 300px;
+    width: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#slide2{
+    background-image: url("../img/colorful-abstract.avif");
+}
+#slide1{
+    background-image: linear-gradient(to right,rgb(245, 245, 200),rgb(245, 245, 200),rgb(245, 245, 200),rgb(165, 38, 38));
+    /*background-color:rgb(245, 245, 200) ;*/
+}
+#slide1 img{
+    float: left;
+    height: 30vh;
+    margin-bottom: ;
+}
+#slide1 h1{
+    font-size:40px;
+}
+#slide3 h1{
+    font-size:40px;
+}
+#slide3{
+    /*background-color: aquamarine;*/
+    background-image: linear-gradient(170deg,rgb(171, 121, 121) 50%,white 50%);
+}
+#slide3 a{
+    background-color: rgb(197, 153, 96);
+}
+#slide3 a:hover{
+    background-color: rgb(222, 220, 113);
+    
+
+}
+#slide3 img{
+    float: left;
+    height: 30vh;
+}
+.carousel-item{
+    height: 300px;
+    justify-items: center;
+    
+    
+}
+#col1,#col3{
+    
+    background-color: rgb(250, 232, 215);
+}
+.col2-1{
+    height:240px;
+    background-color:rgba(153, 205, 50, 0.5);
+    margin-bottom: 15px;
+
+}
+.col2-2{
+    height:240px;
+    background-color:rgba(153, 205, 50, 0.5);
+}
+.C2 img{
+    margin-left: 10%;
+    height:80%;
+    width: 80%;
+    
+}
+.C2{
+    
+    align-content: center;
+    justify-items: center;
+}
+.container2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    height:fit-content; /* Default for large screens */
+}
+
+
+
+
+
+
+.header-2 h1{
+    font-size:40px;
+    color:rgb(225, 20, 85);
+}
+.header-2 h2{
+    font-size:30px;
+    color:rgb(9, 21, 83);
+}
+footer{
+    background-color: antiquewhite;
+    padding-bottom: 5px;
+    width: 102%;
+}

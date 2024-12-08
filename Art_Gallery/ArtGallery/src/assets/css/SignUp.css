@@ -1,0 +1,81 @@
+*{
+
+}
+.bodydiv{
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    min-height: 100vh;
+    background-position: center;
+    background-image: url(Wave.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    padding:50px;
+    border-radius: 0px 100px;
+    /*display: flex;*/
+    height: 500px;
+    width:60%;
+    /*margin: 200px auto;*/
+    margin: 200px 50px ;
+    float:right;
+    background: rgba(116, 115, 125, 0.5);
+    box-shadow:inset -10px -5px rgba(24, 25, 30, 0.86) ;
+    align-self:right;
+}
+#left{
+    border-radius: 0px 0px 0px 50px ;
+    text-align: center;
+    float: left;
+    height:100%;
+    width: 50%;
+    background: rgb(182, 177, 222);
+    
+}
+#right{
+    border-radius: 0px 50px 0px 0px ;
+    text-align: center;
+    float: left;
+    height:100%;
+    width: 50%;
+    background: rgb(223, 237, 188);
+    
+}
+
+
+h2{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+
+    height: 35px;
+    width: 80%;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    
+    height: 40px;
+    width: 40%;
+
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    color: white;
+    background-color: rgb(29, 29, 205);
+}
+a{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
