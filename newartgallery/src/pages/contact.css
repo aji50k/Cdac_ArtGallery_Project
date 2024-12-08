@@ -1,0 +1,218 @@
+.contactContainer {
+    padding: 4rem 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9; /* Light background for an elegant look */
+}
+
+.contactContainer > .heading {
+    width: 100%;
+    text-align: center;
+}
+
+.contactContainer > .heading > h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2d3448; /* Darker shade for text */
+}
+
+.contactContainer > .heading > p {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #555; /* Subtle grey for a clean look */
+}
+
+/******************** Content *********************/
+.contactContainer > .content {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+}
+
+.contactContainer > .content > .info {
+    width: 45%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a soft shadow for depth */
+    border-radius: 8px;
+}
+
+.contactContainer > .content > .info > i {
+    height: 4rem;
+    width: 4rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    color: #2d3448;
+}
+
+.contactContainer > .content > .info > h4 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.contactContainer > .content > .info > p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/******************** Form *********************/
+.contactContainer > form {
+    margin-top: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contactContainer > form > div {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.contactContainer > form > div:nth-child(1),
+.contactContainer > form > div:nth-child(2) {
+    width: 48%;
+}
+
+.contactContainer > form > div > label {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.contactContainer > form > div > input,
+.contactContainer > form > div > textarea {
+    margin-top: 0.5rem;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.contactContainer > form > div > input:focus,
+.contactContainer > form > div > textarea:focus {
+    border: 1px solid #2d3448;
+    outline: none;
+    box-shadow: 0 0 4px rgba(45, 52, 72, 0.5);
+}
+
+.contactContainer > form > div > textarea {
+    height: 150px;
+    resize: none;
+}
+
+.contactContainer > form > button {
+    margin: 0 auto;
+    padding: 1rem 2.5rem;
+    background-color: #FFAAA7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contactContainer > form > button:hover {
+    background-color: #1e2533;
+}
+
+/******************** Media Query ********************/
+/* Tablet screen */
+@media (max-width: 992px) {
+    .contactContainer {
+        padding: 4rem 10%;
+    }
+
+    .contactContainer > .content > .info {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/* Mobile screen */
+@media (max-width: 576px) {
+    .contactContainer {
+        padding: 3rem 5%;
+    }
+
+    .contactContainer > form > div:nth-child(1),
+    .contactContainer > form > div:nth-child(2) {
+        width: 100%;
+    }
+}
+
+.contactContainer {
+    padding: 2rem 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    width: 100%; /* Occupy full width */
+    max-width: 1200px; /* Center content for large screens */
+    margin: auto;
+  }
+  
+  .contactContainer > .heading {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contactContainer > form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .contactContainer > form > div {
+    width: 48%; /* Responsive two-column layout */
+    margin-bottom: 1.5rem;
+  }
+  
+  .contactContainer > form > div:nth-child(1),
+  .contactContainer > form > div:nth-child(2) {
+    width: 48%; /* Adjust for desktop view */
+  }
+  
+  .contactContainer > form > button {
+    margin: 0 auto;
+    display: block;
+    padding: 1rem 2.5rem;
+    background-color: #5C8374;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contactContainer > form > button:hover {
+    background-color: #1e2533;
+  }
+  
+  /* Full width on smaller devices */
+  @media (max-width: 768px) {
+    .contactContainer > form > div {
+      width: 100%;
+    }
+  }
+  
